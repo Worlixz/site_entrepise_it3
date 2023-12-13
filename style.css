@@ -1,0 +1,109 @@
+.background-perso{
+    width: 100vw;
+    height: 80vh;
+    background: url(../maquette_cv_commun/assets/img/Background\ img.png)
+    no-repeat
+    center;
+}
+
+#para-card{
+    margin-top: none;
+    margin-bottom: none;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+#carouselExample{
+    height: 100%;
+}
+#carous-inner{
+    height: 100%;
+}
+
+.section-img{
+    margin: 75px auto;
+    height: 100%;
+}
+.div-img-carous{
+    height: 100%;
+}
+
+.card-perso-product{
+    min-width: 500px !important;
+}
+.span-check{
+    color: white;
+}
+
+#hero-pipeline{
+    height: 80vh;
+    background-image: url(./assets/img/bg-pipeline.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent-blur{
+    position: relative;
+}
+
+.blur-dark{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4
+    );
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: -10px;
+    z-index: 0;
+    filter: blur(40px);
+}
+
+.div-text{
+    position: relative;
+    z-index: 2;
+}
+
+#card-business{
+    z-index: 2;
+    transform: scale(1.05);
+    animation: animation_out .3s ease-in-out;
+}
+#card-business:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    animation: animation_enter .3s ease-in-out;
+}
+
+@keyframes animation_enter {
+    from{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes animation_out {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+footer{
+    min-height: 200px;
+    margin-top: 150px;
+}
+
+.icon-size{
+    max-width: 100px;
+    > img{
+        /* height: 100%; */
+        width: 100%;
+    }
+}

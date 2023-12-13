@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CODA - prodcut 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./../index.html"><img src="/site_entrepise_it3/assets/icons/Rectangle 34.svg" alt="logo_entreprise"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../catalogue.html">Produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../team.html">Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main>
+      <section id="hero-pipeline" class="bg-dark d-flex w-100 justify-content-center align-items-center">
+        <div class="parent-blur">
+          <div class="blur-dark"></div>
+          <div class="div-text">
+            <div class="container d-flex flex-row-reverse align-items-center flex-wrap">
+      
+              <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <h1 class="display-1 text-white text-end">Configuration Pipeline</h1>
+              </div>
+      
+              <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <p class="text-white fw-bold fs-3">Certaines choses ne peuvent s'acheter.</p>
+                <p class="text-white fw-bold fs-4">La sérénité lors de déploiement oui</p>
+                <button onclick="window.location.href='#description'" class="btn btn-primary m-1">Découvrir</button>
+                <button onclick="window.location.href='#produit'" class="btn btn-secondary m-1">Commander</button>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="container mt-5">
+        <div class="m-3">
+          <h2>Notre savoir faire.</h2>
+        </div>
+        <div class="d-flex flex-column align-items-center flex-md-row justify-content-between text-center">
+          <div class="icon-size m-3">
+            <img class="img-fluid" src="../assets/icons/24-hours.png" alt="maintenance_24h" srcset="">
+            <p>Maintenance garantie 24/24h</p>
+          </div>
+          <div class="icon-size m-3">
+            <img class="img-fluid" src="../assets/icons/devops.png" alt="deploiment_continu" srcset="">
+            <p>Déploiement continu</p>
+          </div>
+          <div class="icon-size m-3">
+            <img class="img-fluid" src="../assets/icons/website.png" alt="personnalisation" srcset="">
+            <p>Solution personnalisée</p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="description" class="container mt-5" style="max-width: 1200px;">
+        <div class="d-flex flex-column align-items-center flex-md-row shadow">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <h2 class="text-bg-primary rounded p-2">Les Outils</h2>
+              <h2 class="text-decoration-underline">DevOps</h2>
+            </div>
+            <p>Nous configurons et mettons en place les outils nécessaires pour :</p>
+            <ul>
+              <li>Livrer et déployer de manière continue</li>
+              <li>Automatiser vos déploiements</li>
+              <li>Intégrer de manière continue</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 p-4">
+            <img class="rounded" style="height: 100%; width: 100%;"  src="../assets/img/tools.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center flex-md-row shadow">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2 order-md-2">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <h2 class="text-bg-success rounded p-2">Supervision</h2>
+              <h2 class="text-decoration-underline">DevOps</h2>
+            </div>
+            <p>Nous gérons à votre place :</p>
+            <ul>
+              <li>Infrastructure as Code (IaC)</li>
+              <li>Orchestration des conteneurs</li>
+              <li>Gestion de configuration automatisée</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 order-md-1 p-4">
+            <img class="rounded" style="height: 100%; width: 100%;"  src="../assets/img/reunion.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center flex-md-row shadow">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <h2 class="text-bg-danger rounded p-2">Stratégies</h2>
+              <h2 class="text-decoration-underline">DevOps</h2>
+            </div>
+            <p>Parce que DevOps, cela n’est pas que la mise en place
+              d’outils, nos collaborateurs forment vos équipes à la philosophie</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 p-4">
+            <img class="rounded" style="height: 100%; width: 100%;"  src="../assets/img/code.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="produit" class="container d-flex flex-column align-items-center flex-lg-row justify-content-center mt-5">
+
+        <div class="order-2 order-lg-1 mt-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title m-3 fs-4">Basic</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Solution idéale pour les sites web personnels</h6>
+              <span ><del>64,99 €</del> <strong>Économisez 01%</strong></span>
+              <h4 class="m-3">64,98 €/mois</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-secondary w-100">COMMANDEZ</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 order-lg-2 mt-3" id="card-business">
+          <div class="card border border-2 border-primary" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title m-3 fs-4">Business</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Solution idéale pour les sites web personnels</h6>
+              <span ><del>149,99 €</del> <strong>Économisez 01%</strong></span>
+              <h4 class="m-3">149,98 €/mois</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary w-100">COMMANDEZ</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-3 order-lg-3 mt-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title m-3 fs-4">Premium</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Solution idéale pour les sites web personnels</h6>
+              <span ><del>159,99 €</del> <strong>Économisez 01%</strong></span>
+              <h4 class="m-3">159,98 €/mois</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-secondary w-100">COMMANDEZ</button>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    </main>
+
+    <footer class="bg-secondary bg-gradient pt-5">
+      <div class="container">
+        <h2 class="text-white fs-2">CODA</h2>
+        <hr>
+        <ul>
+          <li><a href="#">Plan du site</a></li>
+          <li><a href="#">Mention légales</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
