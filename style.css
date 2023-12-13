@@ -16,26 +16,8 @@
     background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
   }
 
-#carouselExample{
-    height: 100%;
-}
-#carous-inner{
-    height: 100%;
-}
-
 .section-img{
     margin: 75px auto;
-    height: 100%;
-}
-.div-img-carous{
-    height: 100%;
-}
-
-.card-perso-product{
-    min-width: 500px !important;
-}
-.span-check{
-    color: white;
 }
 
 #hero-pipeline{
@@ -51,8 +33,7 @@
 
 .blur-dark{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4
-    );
+    background-color: rgba(0, 0, 0, 0.4);
     top: 0;
     bottom: 0;
     left: -10px;
@@ -64,6 +45,15 @@
 .div-text{
     position: relative;
     z-index: 2;
+}
+
+#footer{
+    min-height: 200px;
+    margin-top: 150px;
+}
+
+.icon-size{
+    max-width: 100px;
 }
 
 #card-business{
@@ -92,18 +82,5 @@
     }
     100%{
         transform: scale(1.05);
-    }
-}
-
-footer{
-    min-height: 200px;
-    margin-top: 150px;
-}
-
-.icon-size{
-    max-width: 100px;
-    > img{
-        /* height: 100%; */
-        width: 100%;
     }
 }
