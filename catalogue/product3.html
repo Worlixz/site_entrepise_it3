@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CODA - product3</title>
+    <title>CODA - prodcut 1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
 
@@ -33,16 +34,150 @@
         </div>
       </nav>
 
-
-    <h1>web app</h1>
-
-      <section>
-        <div class="container-sm">100% wide until small breakpoint</div>
-        <div class="container-md">100% wide until medium breakpoint</div>
-        <div class="container-lg">100% wide until large breakpoint</div>
-        <div class="container-xl">100% wide until extra large breakpoint</div>
-        <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+    <main>
+      <section id="hero-pipeline" class="bg-dark d-flex w-100 justify-content-center align-items-center">
+        <div class="parent-blur">
+          <div class="blur-dark"></div>
+          <div class="div-text">
+            <div class="container d-flex flex-row-reverse align-items-center flex-wrap">
+      
+              <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <h1 class="display-1 text-white text-end">Application Web</h1>
+              </div>
+      
+              <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <p class="text-white fw-bold fs-3">Au cœur des évolutions du Web 2.0 </p>
+                <p class="text-white fw-bold fs-4">les Web App sont partout et<br> offrent des usages très variés.</p>
+                <button onclick="window.location.href='#description'" class="btn btn-primary m-1">Découvrir</button>
+                <button onclick="window.location.href='#produit'" class="btn btn-secondary m-1">Commander</button>
+              </div>
+      
+            </div>
+          </div>
+        </div>
       </section>
+      
+      <section class="container mt-5">
+        <div class="m-3">
+          <h2>Notre savoir faire.</h2>
+        </div>
+        <div class="d-flex flex-column flex-md-row flex-wrap justify-content-center align-items-center justify-content-md-between text-center mt-5">
+          <div class="icon-size m-3">
+            <img src="../assets/icons/brainstorm.png" alt="" srcset="">
+            <p>Objectif</p>
+          </div>
+          <div class="icon-size m-3">
+            <img src="../assets/icons/prototype.png" alt="" srcset="">
+            <p>Création</p>
+          </div>
+          <div class="icon-size m-3">
+            <img src="../assets/icons/testing.png" alt="" srcset="">
+            <p>Développement</p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="description" class="container mt-5" style="max-width: 1200px;">
+        <div class="d-flex flex-column align-items-center flex-md-row shadow">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <h2 class="text-bg-primary rounded p-2">Objectif</h2>
+              <h2 class="text-decoration-underline">DevOps</h2>
+            </div>
+            <p>Votre application doit impérativement répondre à deux objectifs :</p>
+            <ul>
+              <li>La/les douleur(s) de vos utilisateurs idéaux </li>
+              <li>Votre objectif commercial</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 p-4">
+            <img class="rounded" style="height: 100%; width: 100%;"  src="../assets/img/objectif.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center flex-md-row shadow">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2 order-md-2">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <h2 class="text-bg-success rounded p-2">Création</h2>
+              <h2 class="text-decoration-underline">DevOps</h2>
+            </div>
+            <p>Maintenant que votre projet prend forme, il est temps de créer une conception graphique pour votre application !</p>
+            <ul>
+              <li>Les détails visuels</li>
+              <li>Des animations et du motion design</li>
+              <li>Un bon graphiste </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 order-md-1 p-4">
+            <img class="rounded" style="height: 100%; width: 100%;"  src="../assets/img/creation.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center flex-md-row shadow">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <h2 class="text-bg-danger rounded p-2">Développement</h2>
+              <h2 class="text-decoration-underline">DevOps</h2>
+            </div>
+            <p>Ça y est, nous y sommes. Il est temps de créer votre application !</p>
+            <ul>
+              <li>Le Front-end</li>
+              <li>Le Back-end</li>
+              <li>Gagnerez du temps </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 p-4">
+            <img class="rounded" style="height: 100%; width: 100%;"  src="../assets/img/développement.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="produit" class="container d-flex flex-column align-items-center flex-lg-row justify-content-center mt-5">
+
+        <div class="order-2 order-lg-1 mt-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title m-3 fs-4">Basic</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Solution idéale pour les sites web personnels</h6>
+              <span ><del>64,99 €</del> <strong>Économisez 01%</strong></span>
+              <h4 class="m-3">64,98 €/mois</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-secondary w-100">COMMANDEZ</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 order-lg-2 mt-3" id="card-business">
+          <div class="card border border-2 border-primary" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title m-3 fs-4">Business</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Solution idéale pour les sites web personnels</h6>
+              <span ><del>149,99 €</del> <strong>Économisez 01%</strong></span>
+              <h4 class="m-3">149,98 €/mois</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary w-100">COMMANDEZ</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-3 order-lg-3 mt-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title m-3 fs-4">Premium</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Solution idéale pour les sites web personnels</h6>
+              <span ><del>159,99 €</del> <strong>Économisez 01%</strong></span>
+              <h4 class="m-3">159,98 €/mois</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-secondary w-100">COMMANDEZ</button>
+            </div>
+          </div>
+        </div>          
+      </section>
+
+    </main>
+
+    <footer class="bg-secondary">
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
