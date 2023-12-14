@@ -20,11 +20,22 @@
     margin: 75px auto;
 }
 
-#hero-pipeline{
+.hero-product{
     height: 80vh;
-    background-image: url(./assets/img/bg-pipeline.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
+}
+
+#hero-pipeline{
+    background-image: url(./assets/img/bg-pipeline.webp);
+}
+#hero-seo{
+    background-image: url(./assets/img/referencement.webp);
+}
+#hero-webapp{
+    background-image: url(./assets/img/code.webp);
 }
 
 .parent-blur{
@@ -48,7 +59,7 @@
 }
 
 #footer{
-    min-height: 200px;
+    min-height: 150px;
     margin-top: 150px;
 }
 
