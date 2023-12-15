@@ -6,6 +6,10 @@
     center;
 }
 
+.div-nav-bar > a > img {
+    height: 100px;
+}
+
 #para-card{
     margin-top: none;
     margin-bottom: none;
@@ -29,6 +33,9 @@
     transition: .3s ease-in-out;
 }
 
+.navbar-nav > .nav-item:last-child > a{
+    color: #0d6efd;
+}
 
 .hero-product{
     height: 80vh;
