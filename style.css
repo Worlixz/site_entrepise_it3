@@ -20,6 +20,16 @@
     margin: 75px auto;
 }
 
+.card-team{
+    transition: .3s ease-in-out;
+}
+.card-team:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+
+
 .hero-product{
     height: 80vh;
     background-repeat: no-repeat;
